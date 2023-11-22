@@ -28,3 +28,12 @@ Nas bibliotecas e frameworks as sitaxes mais comuns são Arrow function e Nomead
 ### Template Literal/string
 
 Forma mais moderna de manipular dados estáticos e dinâmicos, além de permitir de uma forma mais fácil de executar operações dentro de strings/códigos. Lembre-se do uso das **crases** e do bloco `${}` para execução de código dinâmico (variáveis, constantes, funções etc).
+
+
+### Módulos
+
+São uma maneira de separar lógica/funcionalidads/dados em arquivos dedicados. Ao criar módulos é necessário utilizar os comandos `export` (no módulo a ser exportado) e `import` (no arquivo em que você quer usar no módulo).
+
+Ao exportar apenas o recurso **um recurso**, utiliza-se `export default nomeDoRecurso`, ao exportar **um ou mais** recursos, utiliza-se `export {recurso1, recurso2, recursoN}`.
+
+Ao importar apenas **um recurso**, utiliza-se `import nomeDoRecuro from "local/nomeDoModulo"`. Ao importar **um ou mais** recursos, utilisa-se `import { recurso1, recurso2 } from "local/nomeDoModulo"`.
