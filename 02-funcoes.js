@@ -94,6 +94,8 @@ console.log("----------------------------");
 
 console.log(nome, nome2, nome3);
 
+
+
 const nomeMaiusculo = nome => nome.toUpperCase();
 
 console.log(nomeMaiusculo("igor"));
