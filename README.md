@@ -23,3 +23,8 @@ Blocos de códigos reaproveitáveis, podendo que podem ser criados de pelo menos
 Nas bibliotecas e frameworks as sitaxes mais comuns são Arrow function e Nomeada.
 
 **Obs:** Arrow function e Anônima devem ser declaradas antes de serem chamadas.
+
+
+### Template Literal/string
+
+Forma mais moderna de manipular dados estáticos e dinâmicos, além de permitir de uma forma mais fácil de executar operações dentro de strings/códigos. Lembre-se do uso das **crases** e do bloco `${}` para execução de código dinâmico (variáveis, constantes, funções etc).

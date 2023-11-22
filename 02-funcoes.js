@@ -1,6 +1,6 @@
 //funções
 
-//Sintaxe anônima associada à bariável/constante
+//Sintaxe anônima associada à variável/constante
 const exemplo1 = function () {
     console.log("função anônima");
 };
@@ -50,7 +50,7 @@ const exercicio = (valor1, valor2) => {
 //     console.log("Olá, " + cliente);
 // };
 
-// omitir os parênteses do parâmetro (somente quando for 1)
+// omitir os parênteses do parâmetro (somente quando for um único parâmetro)
 // const saudacao = cliente => {
 //     console.log("Olá, " + cliente);
 // };
