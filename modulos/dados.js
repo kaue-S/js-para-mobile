@@ -12,6 +12,8 @@ const livro = {
     ano: 1954
 };
 
+const alunos = ["tanaka", "Victor", "Eliel", "Aline"];
+
 /* se for exportação de somente um recurso usamos export default nomeDoRecurso */
 //export default pessoa;
-export { pessoa, livro };
+export { pessoa, livro, alunos  };
