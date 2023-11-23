@@ -77,8 +77,8 @@ console.log("---------");
 
 //Destructing para parâmetros de função
 
-function exibirDados(objeto){
-    console.log(`filme: ${objeto.titulo} - Ano de lancamento: ${objeto.ano}`);
+function exibirDados({titulo, ano}){
+    console.log(`filme: ${titulo} - Ano de lancamento: ${ano}`);
 }
 
 const filme1 = {
