@@ -31,3 +31,19 @@ console.log(titulos);
 const descontos = cursos.map (cursos => cursos.preco * 0.90)
 
 console.log(descontos);
+
+//desafio
+
+const dadosCursos = cursos.map(function exibirCursos({id, titulo, categoria, preco}){
+    console.log(`Id: ${id}, titulo: ${titulo}, categoria: ${categoria}, preco: ${preco * 0.90}` )
+})
+
+
+// const  cursosAtualizado = cursos.map(cursos => cursos);
+const cursosAtualizado = cursos.map(curso => {
+    return {...curso, preco: curso.preco * 0.90};
+
+});
+
+
+console.log(cursosAtualizado);
