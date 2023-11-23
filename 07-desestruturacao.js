@@ -32,9 +32,7 @@ console.log("-------");
 const recursos = [
     ["Notebook", "TV Led", "Computador Desktop"],
     
-    function(texto) {
-        return texto.toUpperCase()
-    }
+   texto => texto.toUpperCase()
 ];
 
 // destructuring
@@ -51,3 +49,48 @@ for(const produto of produtos) {
 console.log( converter("Tiago") );
 console.log( converter("geladeira") );
 console.log( converter(produtos[0]) );
+
+
+console.log("-----------");
+
+//destructuring em objetos
+const pessoa = {
+    nome: "Andre",
+    idade: 19,
+    bairro: "Penha",
+    situacao: "Crítica"
+};
+
+const { nome, idade, bairro, situacao } = pessoa;
+
+console.log(`O aluno ${nome} está em situacao ${situacao} no curso. mora na ${bairro} e mesmo assim sempre atrasa...:`);
+
+
+    //criando apelido para a propriedade código
+const { codigo:pedido, cursos, preco } = { codigo: "123abc", cursos: ["Figma", "Node.js"], preco: 1000}
+
+console.log(pedido);
+console.log(cursos[0]);
+console.log(preco);
+
+console.log("---------");
+
+//Destructing para parâmetros de função
+
+function exibirDados(objeto){
+    console.log(`filme: ${objeto.titulo} - Ano de lancamento: ${objeto.ano}`);
+}
+
+const filme1 = {
+    titulo: "Vingadores",
+    ano: 2023
+};
+
+const filme2 = {
+    titulo: "Barbie",
+    ano: 2023
+};
+
+exibirDados(filme1);
+exibirDados(filme2);
+
