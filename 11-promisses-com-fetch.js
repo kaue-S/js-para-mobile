@@ -3,7 +3,7 @@
 /* Comunicação assíncrona (AJAX) para 
 carregamento de dados usando fetch/then/catch */
 
-const apiUrl = `https://jsonplaceholder.typicode.com/users`;
+const apiUrl = `https://jsonplaceholder.typicode.com/users/3`;
 
 // Conecte/Acesse...
 fetch(apiUrl)
