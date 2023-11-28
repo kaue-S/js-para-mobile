@@ -12,4 +12,8 @@ fetch(apiUrl)
 .then(resposta => resposta.json())
 
 // ... e então capture os dados contidos na resposta
-.then( dados => console.log(dados) );
+.then( dados => console.log(dados) )
+
+//Em caso de erro(de rede, acesso ou json), capture o erro 
+.catch( error => console.error("Erro na operação: "+error.message) );
+
